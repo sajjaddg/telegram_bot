@@ -10,7 +10,7 @@ export default withMT({
     extend: {
       fontFamily: {
         Lato: ['Lato'],
-        Lato_bold: ["Lato_Bold"],
+        Lato_bold: ["Lato-Bold"],
       },
     },
   },

@@ -7,6 +7,11 @@ const router = createHashRouter([
     id: "Home",
     element: <HomeScreen />,
   },
+  {
+    path: "/signals",
+    id: "Signals",
+    element: <>signals</>,
+  },
 ])
 
 const AppRouter = () => <RouterProvider {...{ router }} />

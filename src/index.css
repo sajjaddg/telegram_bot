@@ -11,3 +11,9 @@
   font-family: "Lato-Bold";
   src: url("../src/assets/fonts/lato/Lato-Bold.ttf");
 }
+
+body{
+ background-color: #212B36;
+ max-width: 450px;
+ margin: auto;
+}
