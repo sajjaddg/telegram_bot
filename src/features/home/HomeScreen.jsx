@@ -35,6 +35,7 @@ function HomeScreen() {
         id: 4,
         title: "Profile",
         icon: <Profile />,
+        to: "/profile",
       },
     ],
     []

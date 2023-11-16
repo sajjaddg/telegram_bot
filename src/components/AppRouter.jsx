@@ -1,5 +1,7 @@
 import { createHashRouter, RouterProvider } from "react-router-dom"
 import HomeScreen from "../features/home/HomeScreen"
+import SignalScreen from "../features/signals/SignalScreen"
+import ProfileScreen from "../features/profile/ProfileScreen"
 
 const router = createHashRouter([
   {
@@ -10,7 +12,12 @@ const router = createHashRouter([
   {
     path: "/signals",
     id: "Signals",
-    element: <>signals</>,
+    element: <SignalScreen />,
+  },
+  {
+    path: "/profile",
+    id: "Profile",
+    element: <ProfileScreen />,
   },
 ])
 
