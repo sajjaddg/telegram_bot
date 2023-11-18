@@ -30,6 +30,7 @@ function HomeScreen() {
         id: 3,
         title: "Wallet",
         icon: <Wallet />,
+        to: "/wallet",
       },
       {
         id: 4,
